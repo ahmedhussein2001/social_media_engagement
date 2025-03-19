@@ -1,6 +1,8 @@
 # I Use Classification ML model to predict post performance based on past data.
 Column Descriptions:
+
 post_id – Unique identifier for each post. 
+
 platform – Social media platform (e.g., Facebook, Twitter, Instagram).
 
 post_type – Type of post (e.g., image, video, text).
