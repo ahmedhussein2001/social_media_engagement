@@ -1,30 +1,30 @@
-# I Use Classification ML model to predict post performance based on past data.
-Column Descriptions:
+# 📱 Social Media Engagement Analysis
 
-post_id – Unique identifier for each post. 
+## 📍 Overview
+This project analyzes social media engagement metrics from various posts (likes, comments, shares, content types, post times) to uncover patterns that affect audience interaction. The goal is to help content creators and marketers optimize their posting strategies based on real data.
 
-platform – Social media platform (e.g., Facebook, Twitter, Instagram).
+## 🧠 Objectives
+- Load and explore social media post data.
+- Analyze patterns in engagement across different days, times, and content types.
+- Visualize which factors lead to higher user interaction (likes, shares, comments).
 
-post_type – Type of post (e.g., image, video, text).
+## 🛠️ Technologies Used
+- **Python**
+- **Pandas, NumPy** – Data processing
+- **Matplotlib, Seaborn, Plotly** – Data visualization
+- **Jupyter Notebook**
 
-post_time – Timestamp of when the post was published.
+## 🔍 Workflow
+1. **Data Loading** – Import structured CSV or JSON social post data.
+2. **Data Cleaning** – Handle nulls, convert date-time formats.
+3. **EDA (Exploratory Data Analysis)**  
+   - Engagement by day/time  
+   - Top-performing content types  
+   - Correlation between features (e.g., shares vs. likes)
 
-caption – The text description of the post.
+## 📊 Sample Insights
+- 📆 Posts made on **weekends** had 25% higher engagement.
+- 🕒 Best time to post: **7 PM – 10 PM**
+- 🎥 **Video posts** had the highest average shares, while **image posts** generated more likes.
 
-hashtags – Hashtags included in the post.
-
-likes – Number of likes the post received.
-
-comments – Number of comments on the post.
-
-shares – Number of times the post was shared.
-
-caption_length – Length of the caption (number of characters or words).
-
-num_hashtags – Number of hashtags used in the post.
-
-post_hour – Hour of the day when the post was published.
-
-post_day – Day of the week when the post was published.
-
-sentiment_score – Sentiment analysis score of the caption (e.g., positive, neutral, negative).
+## 📁 Project Structure
